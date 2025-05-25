@@ -42,8 +42,8 @@ namespace NUglify.Benchmarks
         [Benchmark]
         public void BenchAngleSharp()
         {
-            var parser = new AngleSharp.Parser.Html.HtmlParser();
-            parser.Parse(html);
+            var parser = new AngleSharp.Html.Parser.HtmlParser();
+            parser.ParseDocument(html);
         }
 
         [Benchmark]
