@@ -1,0 +1,1 @@
+﻿function t(){function i(n,t,...i){return(n+t)*i.length}var n=["hello",!0,7],u=[1,2,...n],t,r;i(1,2,...n)===9;t="foo";r=[...t]}

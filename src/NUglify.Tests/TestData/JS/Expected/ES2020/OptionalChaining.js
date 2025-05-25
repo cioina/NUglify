@@ -1,0 +1,1 @@
+﻿let x=foo?.bar,y=foo?.(),z=foo?.()?.[a],p=foo?.3:0;a(x+y+z)

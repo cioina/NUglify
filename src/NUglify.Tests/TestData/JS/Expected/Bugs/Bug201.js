@@ -1,0 +1,1 @@
+﻿const sum=function({foo:t=2,dummy:n=3}){return t+n},sum2=({foo2:t=2,dummy2:n=3})=>t+n
